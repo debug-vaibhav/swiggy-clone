@@ -1,0 +1,33 @@
+.wrapper {
+    width: 100vw;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 576px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 47.5%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    html {
+        font-size: 67.5%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        font-size: 87.5%;
+    }
+}
