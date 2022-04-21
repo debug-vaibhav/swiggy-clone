@@ -8,26 +8,72 @@
     margin: 0 auto;
 }
 
-@media screen and (min-width: 576px) {
+.d-block {
+    display: block !important;
+}
+
+.overlay-enabled {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-no-margin {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+@media screen and (max-width: 576px) {
     html {
         font-size: 40%;
+
+        .desktop-only {
+            display: none;
+        }
+
+        .mobile-only {
+            display: flex;
+        }
     }
 }
 
 @media screen and (min-width: 768px) {
     html {
         font-size: 47.5%;
+
+        .desktop-only {
+            display: block;
+        }
+
+        .mobile-only {
+            display: none;
+        }
     }
 }
 
 @media screen and (min-width: 992px) {
     html {
         font-size: 67.5%;
+
+        .desktop-only {
+            display: block;
+        }
+
+        .mobile-only {
+            display: none;
+        }
     }
 }
 
 @media screen and (min-width: 1200px) {
     html {
         font-size: 87.5%;
+
+        .desktop-only {
+            display: block;
+        }
+
+        .mobile-only {
+            display: none;
+        }
     }
 }

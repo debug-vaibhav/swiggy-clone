@@ -1,0 +1,74 @@
+@import "../../styles/variables";
+
+.auth-section {
+    .auth-container {
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        width: 0;
+        height: 100vh;
+        background-color: $white;
+        z-index: 501;
+        transition: width 0.2s ease-out;
+
+        .auth-header-form-container {
+            margin-left: 2.5rem;
+            width: 50%;
+
+            i {
+                color: $grey-3;
+                margin-top: 4rem;
+                cursor: pointer;
+            }
+
+            .auth-header-wrapper {
+                margin-top: 2rem;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .auth-header-container {
+                margin-bottom: 2rem;
+            }
+
+            h2 {
+                font-weight: $fw-700;
+                font-size: $fs-700;
+            }
+
+            .login-btn {
+                span {
+                    padding-left: 0.4rem;
+                    padding-right: 0.4rem;
+                }
+            }
+
+            hr {
+                width: 2.5rem;
+                border: $border-size solid $black;
+            }
+
+            .auth-img {
+                width: 6rem;
+            }
+        }
+    }
+
+    .overlay {
+        position: absolute;
+        display: none;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba($black, 0.4);
+        z-index: 500;
+    }
+
+    .width-40vw {
+        width: 40vw;
+
+        // right: 0;
+    }
+}

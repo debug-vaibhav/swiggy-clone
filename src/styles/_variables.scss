@@ -1,14 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 /* colors */
 $primary: #fc8019;
+$brown: #2b1e16;
 $black: #000;
 $grey-1: #282c3f;
 $grey-2: #686b78;
 $grey-3: #9c9da1;
 $grey-4: #d5d6d8;
 $white: #fff;
+$link: #5d8ed5;
+$background-dark: #171a29;
+$background-dark-1: #3d4152;
 $hr-height: 1px;
+$info: #8a584b;
+$warning: #db7c38;
+$success: #48c479;
 
 /* z-indices */
 $scrollbar-z-index: 10;
@@ -41,6 +48,10 @@ $ff-sans-serif: "Quicksand", sans-serif;
 $btn-shadow: 1px;
 $btn-shadow-blur: 2px;
 $btn-shadow-color: rgba($black, 0.3);
+$box-shadow: 1px;
 
 /* borders */
 $border-size: 1px;
+
+/* text */
+$letter-spacing: 1px;

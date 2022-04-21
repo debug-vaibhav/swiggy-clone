@@ -1,0 +1,124 @@
+{
+  "features": [
+    {
+      "header": "Lightning-Fast Delivery",
+      "description": "Experience Swiggy's superfast delivery for food delivered fresh & on time",
+      "image": "/assets/images/fast-delivery.png"
+    },
+    {
+      "header": "No Minimum Order",
+      "description": "Order in for yourself or for the group, with no restrictions on order value",
+      "image": "/assets/images/no-min-order.png"
+    },
+    {
+      "header": "Live Order Tracking",
+      "description": "Know where your order is at all times, from the restaurant to your doorstep",
+      "image": "/assets/images/live-order.png"
+    }
+  ],
+  "popularCities": [
+    "Ahmedabad",
+    "Bangalore",
+    "Chennai",
+    "Delhi",
+    "Gurgaon",
+    "Hyderabad",
+    "Kolkata",
+    "Mumbai",
+    "Pune",
+    "& more."
+  ],
+  "footer": {
+    "links": [
+      {
+        "category": "COMPANY",
+        "items": [
+          "Team",
+          "Careers",
+          "Swiggy Blog",
+          "Bug Bounty",
+          "Swiggy One",
+          "Swiggy Corporate",
+          "Swiggy Instamart"
+        ]
+      },
+      {
+        "category": "ABOUT",
+        "items": ["Help & Support", "Partner with us", "Ride with us"]
+      },
+      {
+        "category": "LEGAL",
+        "items": [
+          "Terms & Conditions",
+          "Refund & Cancellation",
+          "Privacy Policy",
+          "Cookie Policy",
+          "Offer Terms",
+          "Phishing & Fraud"
+        ]
+      }
+    ],
+    "locations": [
+      "Abohar",
+      "Adilabad",
+      "Adityapur",
+      "Adoni",
+      "Agartala",
+      "Agra",
+      "Ahmedabad",
+      "Ahmednagar",
+      "Aizawl",
+      "Ajmer",
+      "Akola",
+      "Alappuzha",
+      "Aligarh",
+      "Alipurduar",
+      "Allahabad",
+      "Almora",
+      "Alwar",
+      "Ambala",
+      "Ambikapur",
+      "Ambur",
+      "Amravati",
+      "Amreli",
+      "Amritsar",
+      "Amroha",
+      "Anand",
+      "Anantapur",
+      "Angul",
+      "Ankleshwar",
+      "Arakkonam",
+      "Arambagh",
+      "Arrah",
+      "Aruppukottai",
+      "Asansol",
+      "Aurangabad",
+      "Aurangabad_bihar",
+      "Azamgarh",
+      "Baddi",
+      "Bagalkot",
+      "Bagdogra",
+      "Bagula",
+      "Bahadurgarh",
+      "Bahraich",
+      "Bajpe",
+      "Balaghat",
+      "Balangir",
+      "Balasore",
+      "Ballari",
+      "Balrampur",
+      "Balurghat",
+      "Banda",
+      "Bangalore",
+      "Bankura",
+      "Banswara",
+      "Bantwal",
+      "Bapatlachirala",
+      "Baramati",
+      "Baran",
+      "Baraut",
+      "Bardhaman",
+      "Bardoli"
+    ]
+  }
+}

@@ -9,5 +9,6 @@
   "eslint.validate": ["javascript"],
   "scss.validate": false,
   "stylelint.enable": true,
-  "stylelint.validate": ["scss"]
+  "stylelint.validate": ["scss"],
+  "editor.fontLigatures": true
 }

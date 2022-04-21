@@ -26,6 +26,20 @@
     }
 }
 
+.btn-primary-default {
+    span {
+        color: $primary;
+    }
+}
+
+.btn-primary-inverse {
+    background-color: $primary;
+
+    span {
+        color: $white;
+    }
+}
+
 .btn-primary {
     background-color: $primary;
 
@@ -65,4 +79,9 @@
         outline-offset: 0;
         caret-color: $primary;
     }
+}
+
+input {
+    outline: none;
+    border: none;
 }

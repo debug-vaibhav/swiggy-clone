@@ -1,0 +1,62 @@
+{
+  "offers": [
+    {
+      "offer": "/assets/images/offer-1.png"
+    },
+    {
+      "offer": "/assets/images/offer-2.png"
+    },
+    {
+      "offer": "/assets/images/offer-3.png"
+    },
+    {
+      "offer": "/assets/images/offer-4.png"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Krushnai Vadapav",
+      "cuisines": "Fast Food"
+    },
+    {
+      "name": "Mr Matka Khichdi",
+      "cuisines": "Indian, Fast Food, Snacks"
+    },
+    {
+      "name": "Grand Al Khatib",
+      "cuisines": "Indian, Mughlai, Chinese, Tandoor, Biryani, Seafood"
+    },
+    {
+      "name": "Bagga Sweets",
+      "cuisines": "Sweets"
+    },
+    {
+      "name": "Chote Miya Restaurants",
+      "cuisines": "Mughlai, Tandoor, Biryani"
+    },
+    {
+      "name": "Sayantara",
+      "cuisines": "Fast Food"
+    },
+    {
+      "name": "Dairy Don",
+      "cuisines": "Desserts, Beverages"
+    },
+    {
+      "name": "Kwality Walls Frozen Dessert and Ice Cream Shop",
+      "cuisines": "Dessets, Ice Cream"
+    },
+    {
+      "name": "Samarth Juice Centre",
+      "cuisines": "Juices, Beverages, Desserts"
+    },
+    {
+      "name": "Kokni Darbar",
+      "cuisines": "Indian, Mughlai, Maharashtrain, Tandoor, Biryani"
+    },
+    {
+      "name": "Sagar Sweets",
+      "cuisines": "Fast Food"
+    }
+  ]
+}

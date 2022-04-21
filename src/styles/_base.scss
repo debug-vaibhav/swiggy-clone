@@ -17,6 +17,14 @@ body {
     font-family: $ff-sans-serif;
     font-size: $fs-300;
     min-height: 100vh;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    // overflow: hidden;
 }
 
 h1,
