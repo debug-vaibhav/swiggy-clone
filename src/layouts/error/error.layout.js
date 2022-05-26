@@ -1,7 +1,7 @@
 import styles from "./error.module.scss";
 
-const Error = () => {
+const ErrorLayout = () => {
   return <div className={styles["error"]}>Error</div>;
 };
 
-export default Error;
+export default ErrorLayout;

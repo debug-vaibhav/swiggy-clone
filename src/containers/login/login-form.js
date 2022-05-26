@@ -1,6 +1,6 @@
-import styles from "./login.module.scss";
+import styles from "./login-form.module.scss";
 
-const Login = () => {
+const LoginForm = () => {
   return (
     <div className={styles["form-section"]}>
       <form>
@@ -29,4 +29,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default LoginForm;

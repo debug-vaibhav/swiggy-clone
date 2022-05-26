@@ -22,7 +22,7 @@
     margin-right: 0 !important;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 376px) {
     html {
         font-size: 40%;
 
@@ -31,7 +31,29 @@
         }
 
         .mobile-only {
+            height: 100vh;
             display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (min-width: 576px) {
+    html {
+        font-size: 40%;
+
+        .desktop-only {
+            display: none;
+        }
+
+        .mobile-only {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
     }
 }

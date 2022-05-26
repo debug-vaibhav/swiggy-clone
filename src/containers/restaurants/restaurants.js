@@ -1,47 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import styles from "./restaurants.module.scss";
 import data from "./data.json";
 
-const restaurants = () => {
+const Restaurants = () => {
   return (
-    <div className="wrapper">
-      <nav className="container">
-        <a href="#">
-          <img src="/assets/images/icon.png" alt="swiggy" />
-        </a>
-        <div className={styles["location-container"]}>
-          <span>Other</span>
-          <span>Nashik, Maharashtra, India</span>
-          <span>
-            <i className="fa-solid fa-chevron-down fa-lg" />
-          </span>
-        </div>
-        <ul>
-          <li>
-            <i className="fa-solid fa-inbox fa-lg"></i>
-            <span>Cart</span>
-          </li>
-          <li>
-            <i className="fa-solid fa-arrow-right-to-bracket fa-lg"></i>
-            <span>Sign In</span>
-          </li>
-          <li>
-            <i className="fa-solid fa-info fa-lg"></i>
-            <span>Help</span>
-          </li>
-          <li>
-            <i className="fa-solid fa-percent fa-lg"></i>
-            <span>Offers</span>
-            <span className={styles["offer-link"]}>NEW</span>
-          </li>
-          <li>
-            <i className="fa-solid fa-magnifying-glass fa-lg"></i>
-            <span>Search</span>
-          </li>
-        </ul>
-      </nav>
+    <div>
       <div className={styles["offers-container"]}>
         <section className="container">
           <button className={`btn ${styles["scroll-left"]}`}>
@@ -59,7 +23,7 @@ const restaurants = () => {
           })}
         </section>
       </div>
-      <div className={`container ${styles["restos-container"]}`}>
+      <div className={`container ${styles["restaurants-container"]}`}>
         <div className={styles["filters-container"]}>
           <h2>234 restaurants</h2>
           <div className={styles["quick-main-filter-container"]}>
@@ -140,4 +104,4 @@ const restaurants = () => {
   );
 };
 
-export default restaurants;
+export default Restaurants;

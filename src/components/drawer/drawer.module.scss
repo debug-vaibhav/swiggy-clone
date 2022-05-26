@@ -1,0 +1,28 @@
+@import "../../styles/variables";
+
+.content-container {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100vh;
+    background-color: $white;
+    z-index: 501;
+    transition: width 0.2s ease-out;
+}
+
+.overlay {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba($black, 0.4);
+    z-index: 500;
+}
+
+.full-width {
+    width: 40vw;
+}

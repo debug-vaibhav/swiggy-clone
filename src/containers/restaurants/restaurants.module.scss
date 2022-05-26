@@ -1,109 +1,6 @@
 /* stylelint-disable no-descending-specificity */
 @import "../../styles/variables";
 
-nav {
-    display: flex;
-    align-items: center;
-    height: 6rem;
-
-    a {
-        margin-right: 2rem;
-        transition: all 0.3s ease;
-
-        &:hover {
-            transform: scale(1.1);
-        }
-    }
-
-    .location-container {
-        span:first-child {
-            position: relative;
-            font-weight: $fw-700;
-            margin-right: 0.8rem;
-
-            &::after {
-                position: absolute;
-                bottom: -5px;
-                left: 0;
-                content: "";
-                height: $hr-height*2;
-                width: 100%;
-                background-color: $background-dark-1;
-            }
-        }
-
-        span:nth-child(2) {
-            margin-right: 0.8rem;
-            font-weight: $fw-500;
-        }
-
-        span:nth-child(3) {
-            color: $primary;
-        }
-
-        &:hover {
-            cursor: pointer;
-
-            span:first-child {
-                color: $primary;
-
-                &::after {
-                    background-color: $primary;
-                }
-            }
-
-            span:nth-child(2) {
-                color: $grey-2;
-            }
-        }
-    }
-
-    ul {
-        flex: 1;
-        display: flex;
-        flex-direction: row-reverse;
-        height: 100%;
-
-        li {
-            position: relative;
-            display: flex;
-            align-items: center;
-            margin-right: 4rem;
-            cursor: pointer;
-
-            i {
-                font-size: 1rem;
-                color: $grey-2;
-                margin-right: 0.8rem;
-            }
-
-            span {
-                font-size: $fs-400*0.9;
-                font-weight: $fw-700;
-                color: $grey-1;
-            }
-
-            .offer-link {
-                position: absolute;
-                right: -1.5rem;
-                top: 1.8rem;
-                color: rgba($color: $primary, $alpha: 90%);
-                font-size: $fs-200*0.9;
-                font-weight: $fw-700;
-            }
-
-            &:hover {
-                i,
-                span { color: $primary; }
-            }
-        }
-
-        li:first-child {
-            margin-right: 0 !important;
-        }
-    }
-}
-
 .offers-container {
     display: flex;
     align-items: center;
@@ -167,7 +64,7 @@ nav {
     }
 }
 
-.restos-container {
+.restaurants-container {
     margin-top: 3rem !important;
 
     .filters-container {
@@ -222,6 +119,7 @@ nav {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                cursor: pointer;
 
                 span {
                     font-size: $fs-400*0.9;
@@ -240,6 +138,12 @@ nav {
                     border: $border-size solid $primary;
 
                     i {
+                        color: $primary;
+                    }
+                }
+
+                &:hover {
+                    span {
                         color: $primary;
                     }
                 }
