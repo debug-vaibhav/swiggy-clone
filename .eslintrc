@@ -1,18 +1,18 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true
-    },
-    "extends": [
-        "react-app",
-        "prettier"
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["react-app", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
     ],
-    "plugins": [
-        "prettier"
-    ],
-    "rules": { 
-        "prettier/prettier": "error",
-        "quotes": ["error", "double"],
-        "func-style": "error"
-    }
+    "quotes": ["error", "double"],
+    "func-style": "error"
+  }
 }
