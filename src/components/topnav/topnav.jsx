@@ -17,24 +17,24 @@ const Topnav = () => {
       </div>
       <ul>
         <li>
-          <i className="fa-solid fa-inbox fa-lg"></i>
+          <img src="/assets/icons/cart.svg" alt="" />
           <span>Cart</span>
         </li>
         <li>
-          <i className="fa-solid fa-arrow-right-to-bracket fa-lg"></i>
+          <img src="/assets/icons/user.svg" alt="" />
           <span>Sign In</span>
         </li>
         <li>
-          <i className="fa-solid fa-info fa-lg"></i>
+          <img src="/assets/icons/help.svg" alt="" />
           <span>Help</span>
         </li>
         <li>
-          <i className="fa-solid fa-percent fa-lg"></i>
+          <img src="/assets/icons/offer.svg" alt="" />
           <span>Offers</span>
           <span className={styles["offer-link"]}>NEW</span>
         </li>
         <li>
-          <i className="fa-solid fa-magnifying-glass fa-lg"></i>
+          <img src="/assets/icons/search.svg" alt="" />
           <span>Search</span>
         </li>
       </ul>

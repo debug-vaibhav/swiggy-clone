@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import HomeLayout from "./layouts/home/home.layout";
-import MainLayout from "./layouts/main/main.layout";
-import MobileLayout from "./layouts/mobile/mobile.layout";
-import ErrorLayout from "./layouts/error/error.layout";
+import HomeLayout from "./pages/home/home.layout";
+import MainLayout from "./pages/main/main.layout";
+import MobileLayout from "./pages/mobile/mobile.layout";
+import ErrorLayout from "./pages/error/error.layout";
 import Restaurants from "./containers/restaurants/restaurants";
 import Restaurant from "./components/cards/restaurant/restaurant";
 import "./styles/index.scss";

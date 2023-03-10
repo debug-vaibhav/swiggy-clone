@@ -71,9 +71,9 @@ nav {
             margin-right: 4rem;
             cursor: pointer;
 
-            i {
-                font-size: 1rem;
+            img {
                 color: $grey-2;
+                height: 1.5rem;
                 margin-right: 0.8rem;
             }
 
@@ -101,5 +101,11 @@ nav {
         li:first-child {
             margin-right: 0 !important;
         }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    nav {
+        padding: 0 1.8rem;
     }
 }

@@ -267,8 +267,7 @@
                 }
 
                 &:hover {
-                    border: $border-size solid $grey-4;
-                    box-shadow: 0 $box-shadow*2 $box-shadow*5 0 rgba($black, 10%);
+                    box-shadow: 0 $box-shadow*2 $box-shadow*5 0 rgba($black, 25%);
 
                     .quick-view-container {
                         visibility: visible;
@@ -276,5 +275,29 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .offers-container {
+        section {
+            column-gap: 0.2rem;
+
+            .scroll-left {
+                left: 0.5rem;
+            }
+
+            .scroll-right {
+                right: 0.5rem;
+            }
+
+            .offer-container {
+                padding: 0 2rem;
+            }
+        }
+    }
+
+    .restaurants-container {
+        padding: 0 1.8rem;
     }
 }

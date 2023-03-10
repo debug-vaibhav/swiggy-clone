@@ -234,17 +234,14 @@
             flex: 1;
         }
 
-        link-container {
+        .link-container {
             display: flex;
             flex-direction: column;
+            gap: 1.5rem;
 
             img {
                 width: 15rem;
                 transition: all 0.1s ease-out;
-            }
-
-            img:first-child {
-                margin-bottom: 1.5rem;
             }
 
             img:hover {
