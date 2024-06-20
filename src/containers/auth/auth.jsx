@@ -1,19 +1,18 @@
-import React from "react";
-import Drawer from "../../components/drawer/drawer";
+import React, { useContext } from "react";
+import Drawer from "../../components/custom/drawer/drawer";
 import LoginForm from "../login/login-form";
 import SignupForm from "../signup/signup-form";
 import styles from "./auth.module.scss";
+import AuthContext from "../../contexts/auth";
 
-const Auth = ({ showAuth, setShowAuth }) => {
+const Auth = () => {
+  const { showAuth, setShowAuth } = useContext(AuthContext);
   const { type } = showAuth;
 
   const closeDrawer = (event) => {
-    event.stopPropagation();
     setShowAuth((state) => {
       return { ...state, visible: false };
     });
-    document.body.classList.remove("overlay-enabled");
-    document.body.classList.remove("overlay-no-margin");
   };
 
   const toggleAuth = () => {
@@ -24,14 +23,16 @@ const Auth = ({ showAuth, setShowAuth }) => {
   };
 
   return (
-    <Drawer state={showAuth} setState={setShowAuth}>
+    <Drawer state={showAuth} setState={setShowAuth} direction="right">
       <div className={styles["form-container"]}>
         <i className="fa-solid fa-xmark fa-2xl" onClick={closeDrawer} />
-        <div className={styles["form-wrapper"]}>
-          <div className={styles["form-header-container"]}>
-            <h2>{type === "login" ? "Login" : "Sign up"}</h2>
+        <div className={styles["form__wrapper"]}>
+          <div className={styles["form__main"]}>
+            <h2 className={styles["form__header"]}>
+              {type === "login" ? "Login" : "Sign up"}
+            </h2>
             <button
-              className={`btn btn-primary-default ${styles["auth-btn"]}`}
+              className={`btn btn--primary-default ${styles["form__btn"]}`}
               onClick={toggleAuth}
             >
               or
@@ -43,7 +44,7 @@ const Auth = ({ showAuth, setShowAuth }) => {
             </button>
             <hr />
           </div>
-          <div className={styles["form-icon"]}>
+          <div className={styles["form__icon"]}>
             <img src="/assets/images/frap.png" alt="frap" />
           </div>
         </div>

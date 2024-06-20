@@ -1,0 +1,15 @@
+@import "../../../styles/variables";
+
+.item {
+    min-width: 400px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+    img {
+        object-fit: contain;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+}

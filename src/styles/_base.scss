@@ -20,11 +20,9 @@ body {
     scrollbar-width: none;
     -ms-overflow-style: none;
 
-    &::-webkit-scrollbar {
-        display: none;
-    }
-
-    // overflow: hidden;
+    // &::-webkit-scrollbar {
+    //     display: none;
+    // }
 }
 
 h1,
@@ -45,7 +43,8 @@ a {
 }
 
 img,
-picture {
+picture,
+svg {
     max-width: 100%;
     display: block;
 }
@@ -55,4 +54,20 @@ button,
 textarea,
 select {
     font: inherit;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+#app {
+    position: relative;
+}
+
+#toaster {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }

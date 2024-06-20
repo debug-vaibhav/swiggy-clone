@@ -3,12 +3,12 @@ import data from "./data.json";
 
 const SignupForm = () => {
   return (
-    <div className={styles["form-section"]}>
+    <div className={styles["form-container"]}>
       <form>
-        <div className={styles["form-wrapper"]}>
+        <div className={styles["form__wrapper"]}>
           {data.signup.formElements.map((element, index) => {
             return (
-              <div key={index} className={styles["form-element-container"]}>
+              <div key={index} className={styles["form__element-container"]}>
                 <input
                   type={element.type}
                   name={element.name}
@@ -22,8 +22,8 @@ const SignupForm = () => {
             );
           })}
         </div>
-        <h3>Have a referral code ?</h3>
-        <button className={`btn btn-primary-inverse ${styles["btn-login"]}`}>
+        <h3 className={styles["form__referral"]}>Have a referral code ?</h3>
+        <button className={`btn btn--primary-inverse ${styles["form__btn"]}`}>
           <span>CONTINUE</span>
         </button>
         <p>

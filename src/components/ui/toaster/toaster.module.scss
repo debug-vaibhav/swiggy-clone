@@ -1,0 +1,55 @@
+@import "../../../styles/variables";
+
+.toaster {
+    position: absolute;
+    top: -50rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(75%, 35rem);
+    background-color: $white;
+    box-shadow: 0 $header-x-shadow $header-y-shadow $header-blur rgba($color: $grey-4, $alpha: 100%);
+    z-index: $toaster-z-index;
+    transition: all 0.5s ease-in-out;
+
+    &__wrapper {
+        padding: 1.5rem 2rem;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__content {
+        margin-top: 1.5rem;
+    }
+
+    &__message {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.75;
+    }
+
+    &__tagline {
+        font-size: 1.2rem;
+        color: $primary;
+        font-weight: bold;
+    }
+
+    &__icon {
+        font-size: 1.2rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__border {
+        height: $border-size * 8;
+        background-color: rgba($color: $success, $alpha: 100%);
+    }
+}
+
+.animate {
+    top: 2rem;
+}

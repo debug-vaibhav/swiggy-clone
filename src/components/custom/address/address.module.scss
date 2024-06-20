@@ -1,0 +1,67 @@
+@import "../../../styles/variables";
+
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+    width: 60%;
+    padding: 0 0 0 1.5rem;
+    border: $border-size solid $grey-3;
+
+    &__header {
+        margin-top: 1.5rem;
+        margin-left: 1.5rem;
+        font-size: 1rem;
+        color: $grey-3;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border-bottom: $border-size dotted $grey-3;
+
+        &:last-child {
+            border: none;
+        }
+
+        &:hover {
+            cursor: pointer;
+
+            .location-header {
+                color: $primary;
+            }
+        }
+    }
+
+    &__details {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        color: $grey-1;
+
+        &__main {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.4rem;
+        }
+
+        &__sub {
+            font-size: 0.9rem;
+        }
+    }
+
+    &__extra {
+        margin: 1.5rem 0 1.5rem 1.5rem;
+        font-size: 1rem;
+        font-weight: 600;
+        color: $link;
+
+        &:hover {
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+}

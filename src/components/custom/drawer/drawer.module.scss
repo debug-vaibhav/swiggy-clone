@@ -1,0 +1,44 @@
+@import "../../../styles/variables";
+
+.drawer {
+    position: relative;
+
+    &__content {
+        position: fixed;
+        display: block;
+        top: 0;
+        max-width: 40vw;
+        width: 40vw;
+        height: 100vh;
+        background-color: $white;
+        z-index: $drawer-z-index;
+        transition: all 0.2s ease-out;
+    }
+
+    &__overlay {
+        position: fixed;
+        display: none;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba($black, 0.4);
+        z-index: $drawer-overlay-z-index;
+    }
+}
+
+.right {
+    right: -40vw;
+}
+
+.left {
+    left: -40vw;
+}
+
+.full-width-right {
+    right: 0;
+}
+
+.full-width-left {
+    left: 0;
+}

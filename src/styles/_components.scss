@@ -1,3 +1,4 @@
+/* stylelint-disable selector-class-pattern */
 /* stylelint-disable no-descending-specificity */
 @import "./variables";
 
@@ -18,7 +19,7 @@
     }
 }
 
-.btn-default {
+.btn--default {
     &:hover {
         span {
             color: $primary;
@@ -26,13 +27,21 @@
     }
 }
 
-.btn-primary-default {
+.btn--primary {
+    background-color: $primary;
+
+    span {
+        color: $white;
+    }
+}
+
+.btn--primary-default {
     span {
         color: $primary;
     }
 }
 
-.btn-primary-inverse {
+.btn--primary-inverse {
     background-color: $primary;
 
     span {
@@ -40,15 +49,7 @@
     }
 }
 
-.btn-primary {
-    background-color: $primary;
-
-    span {
-        color: $white;
-    }
-}
-
-.btn-dark {
+.btn--dark {
     background-color: $black;
 
     span {
@@ -58,30 +59,4 @@
     &:hover {
         box-shadow: -$btn-shadow $btn-shadow $btn-shadow-blur $btn-shadow-color;
     }
-}
-
-.form-input {
-    border: none;
-    padding-left: 1.5rem;
-    width: 100%;
-    color: $grey-3;
-    font-weight: $fw-700;
-    font-size: $fs-400;
-
-    &::placeholder {
-        color: $grey-3;
-        font-weight: $fw-700;
-        font-size: $fs-400;
-    }
-
-    &:focus {
-        outline: $border-size solid $primary;
-        outline-offset: 0;
-        caret-color: $primary;
-    }
-}
-
-input {
-    outline: none;
-    border: none;
 }

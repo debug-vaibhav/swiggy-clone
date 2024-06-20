@@ -1,17 +1,17 @@
 @import "../../styles/variables";
 
-.mobile-only-section {
+.mobile {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    .img-container {
+    &__img {
         width: 70%;
         margin-bottom: 4rem;
     }
 
-    .info-container {
+    &__info {
         width: 70%;
         text-align: center;
 

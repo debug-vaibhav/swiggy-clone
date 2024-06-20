@@ -1,6 +1,4 @@
-.wrapper {
-    width: 100vw;
-}
+@import "./variables";
 
 .container {
     width: 100%;
@@ -12,15 +10,26 @@
     display: block !important;
 }
 
-.overlay-enabled {
-    position: relative;
-    overflow: hidden;
-}
+// ::-webkit-scrollbar {
+//     height: $scroll-height;
+//     width: 100%;
+// }
 
-.overlay-no-margin {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-}
+// ::-webkit-scrollbar-track {
+//     height: $scroll-height;
+//     border-radius: $scroll-height;
+//     background: transparent;
+// }
+
+// ::-webkit-scrollbar-thumb {
+//     height: $scroll-height;
+//     border-radius: $scroll-height;
+//     background: $grey-4;
+// }
+
+// ::-webkit-scrollbar-thumb:hover {
+//     background: $grey-3;
+// }
 
 @media screen and (min-width: 376px) {
     html {

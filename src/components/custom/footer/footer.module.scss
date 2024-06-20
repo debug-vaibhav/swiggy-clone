@@ -1,0 +1,74 @@
+@import "../../../styles/variables";
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: $black;
+
+    &__info-container {
+        display: flex;
+        justify-content: space-between;
+        color: $white;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+
+        h3 {
+            color: $grey-3;
+            font-weight: $fw-700;
+            margin-bottom: 1.5rem;
+        }
+
+        ul {
+            li {
+                font-size: $fs-400;
+                margin-bottom: 0.8rem;
+            }
+        }
+    }
+
+    &__info {
+        flex: 1;
+    }
+
+    &__app-link {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        img {
+            width: 15rem;
+            transition: all 0.1s ease-out;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+    }
+
+    &__header {
+        color: $grey-3;
+        font-weight: $fw-700;
+        margin-bottom: 1.5rem;
+    }
+
+    &__locations {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+
+        &__container {
+            display: flex;
+            justify-content: space-between;
+
+            ul {
+                li {
+                    color: $white;
+                    font-size: $fs-400;
+                    margin-bottom: 0.8rem;
+                }
+            }
+        }
+    }
+}

@@ -2,14 +2,16 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Topnav from "../../components/topnav/topnav";
+import Topnav from "../../components/custom/topnav/topnav";
 import styles from "./main.module.scss";
 
 const MainLayout = () => {
   return (
-    <div className={styles["wrapper"]}>
+    <div className={styles["main-container"]}>
       <Topnav />
-      <Outlet />
+      <div className={styles["outlet-container"]}>
+        <Outlet />
+      </div>
     </div>
   );
 };

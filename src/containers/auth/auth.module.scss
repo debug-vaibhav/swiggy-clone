@@ -10,34 +10,36 @@
         cursor: pointer;
     }
 
-    .form-wrapper {
-        margin-top: 2rem;
-        display: flex;
-        justify-content: space-between;
-    }
+    .form {
+        &__wrapper {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+        }
 
-    .form-header-container {
-        margin-bottom: 2rem;
-    }
+        &__main {
+            margin-bottom: 2rem;
+        }
 
-    h2 {
-        font-weight: $fw-700;
-        font-size: $fs-700;
-    }
+        &__header {
+            font-weight: $fw-700;
+            font-size: $fs-700;
+        }
 
-    .auth-btn {
-        span {
-            padding-left: 0.4rem;
-            padding-right: 0.4rem;
+        &__btn {
+            span {
+                padding-left: 0.4rem;
+                padding-right: 0.4rem;
+            }
+        }
+
+        &__icon {
+            width: 6rem;
         }
     }
+}
 
-    hr {
-        width: 2.5rem;
-        border: $border-size solid $black;
-    }
-
-    .form-icon {
-        width: 6rem;
-    }
+hr {
+    width: 2.5rem;
+    border: $border-size solid $black;
 }

@@ -1,13 +1,13 @@
 /* stylelint-disable no-descending-specificity */
 @import "../../styles/variables";
 
-.form-section {
+.form-container {
     margin-top: 2rem;
     width: 100%;
 
     form {
-        .form-wrapper {
-            .form-element-container {
+        .form {
+            &__element {
                 position: relative;
                 border: $border-size solid $grey-4;
                 border-bottom: none;
@@ -31,7 +31,7 @@
                     }
                 }
 
-                label {
+                &__label {
                     position: absolute;
                     top: 1.6rem;
                     left: 1.5rem;
@@ -40,21 +40,26 @@
                     color: $grey-3;
                     transition: all 0.1s ease;
                     cursor: auto;
+
+                    &--highlight {
+                        font-weight: bold;
+                        color: $danger;
+                    }
                 }
             }
 
             div:last-child {
                 border-bottom: $border-size solid $grey-4 !important;
             }
-        }
 
-        .btn-login {
-            width: 100%;
-            padding: 0.5rem 0;
-            margin-top: 1.5rem;
+            &__btn {
+                width: 100%;
+                padding: 0.5rem 0;
+                margin-top: 1.5rem;
 
-            span {
-                letter-spacing: $letter-spacing;
+                span {
+                    letter-spacing: $letter-spacing;
+                }
             }
         }
 

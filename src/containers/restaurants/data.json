@@ -1,4 +1,89 @@
 {
+  "bestOffers": [
+    {
+      "category": "/assets/images/best-offer-1.png"
+    },
+    {
+      "category": "/assets/images/best-offer-2.png"
+    },
+    {
+      "category": "/assets/images/best-offer-3.png"
+    },
+    {
+      "category": "/assets/images/best-offer-4.png"
+    },
+    {
+      "category": "/assets/images/best-offer-5.png"
+    },
+    {
+      "category": "/assets/images/best-offer-6.png"
+    },
+    {
+      "category": "/assets/images/best-offer-7.png"
+    }
+  ],
+  "whatsOnYourMind": [
+    {
+      "category": "/assets/images/Biryani_2.png"
+    },
+    {
+      "category": "/assets/images/Burger.png"
+    },
+    {
+      "category": "/assets/images/Cakes.png"
+    },
+    {
+      "category": "/assets/images/Chinese.png"
+    },
+    {
+      "category": "/assets/images/Chole_Bature.png"
+    },
+    {
+      "category": "/assets/images/Dosa.png"
+    },
+    {
+      "category": "/assets/images/Kachori.png"
+    },
+    {
+      "category": "/assets/images/Khichdi.png"
+    },
+    {
+      "category": "/assets/images/Momos.png"
+    },
+    {
+      "category": "/assets/images/Noodles.png"
+    },
+    {
+      "category": "/assets/images/Pasta.png"
+    },
+    {
+      "category": "/assets/images/Pav_Bhaji.png"
+    },
+    {
+      "category": "/assets/images/Pizza.png"
+    },
+    {
+      "category": "/assets/images/Rolls.png"
+    },
+    {
+      "category": "/assets/images/Salad.png"
+    },
+    {
+      "category": "/assets/images/Samosas.png"
+    },
+    {
+      "category": "/assets/images/Sandwich.png"
+    },
+    {
+      "category": "/assets/images/Shakes.png"
+    },
+    {
+      "category": "/assets/images/Shawarma.png"
+    },
+    {
+      "category": "/assets/images/South_Indian_4.png"
+    }
+  ],
   "offers": [
     {
       "offer": "/assets/images/offer-1.png"
@@ -11,6 +96,116 @@
     },
     {
       "offer": "/assets/images/offer-4.png"
+    }
+  ],
+  "topChains": [
+    {
+      "name": "Pizza Hut",
+      "rating": "3.8",
+      "deliveryTime": "21",
+      "category": "Pizzas",
+      "address": "Hinjewadi",
+      "image": "/assets/images/pizza-hut.png",
+      "offer": "FREE ITEM"
+    },
+    {
+      "name": "McDonald's",
+      "rating": "4.8",
+      "deliveryTime": "24",
+      "category": "Burgers, Beverages, Cafe, Desserts",
+      "address": "Hinjewadi",
+      "image": "/assets/images/mcdonalds.png",
+      "offer": "50% OFF + CASHBACK"
+    },
+    {
+      "name": "KFC",
+      "rating": "3.9",
+      "deliveryTime": "15",
+      "category": "Burgers, Biryani, American",
+      "address": "Hinjewadi",
+      "image": "/assets/images/kfc.png",
+      "offer": "FREE ITEM"
+    },
+    {
+      "name": "Domino's Pizza",
+      "rating": "3.6",
+      "deliveryTime": "34",
+      "category": "Pizzas",
+      "address": "Hinjewadi",
+      "image": "/assets/images/dominos.png",
+      "offer": "50% OFF + CASHBACK"
+    },
+    {
+      "name": "Burger King",
+      "rating": "4.8",
+      "deliveryTime": "23",
+      "category": "Burgers",
+      "address": "Hinjewadi",
+      "image": "/assets/images/burger-king.png",
+      "offer": "50% OFF + CASHBACK"
+    },
+    {
+      "name": "Subway",
+      "rating": "4.8",
+      "deliveryTime": "22",
+      "category": "Pizzas",
+      "address": "Healthy Food, Salads",
+      "image": "/assets/images/subway.png",
+      "offer": "FREE ITEM"
+    },
+    {
+      "name": "Ping Punjab",
+      "rating": "3.9",
+      "deliveryTime": "14",
+      "category": "North Indian, Indian, Punjabi",
+      "address": "Hinjewadi",
+      "image": "/assets/images/pind-punjab.png",
+      "offer": "FREE ITEM"
+    },
+    {
+      "name": "Theobroma",
+      "rating": "4.3",
+      "deliveryTime": "32",
+      "category": "Bakery, Desserts",
+      "address": "Hinjewadi",
+      "image": "/assets/images/theobroma.png",
+      "offer": "FREE ITEM"
+    },
+    {
+      "name": "The Belgian Waffle Co.",
+      "rating": "4.5",
+      "deliveryTime": "25",
+      "category": "Ice Cream, Bakery, Desserts",
+      "address": "Hinjewadi",
+      "image": "/assets/images/belgian-waffle.png",
+      "offer": "FREE ITEM"
+    },
+    {
+      "name": "Faasos - Wraps & Rolls",
+      "rating": "4.1",
+      "deliveryTime": "21",
+      "category": "Kebabs, Fast Food, Snacks",
+      "address": "Hinjewadi",
+      "image": "/assets/images/faasos.png",
+      "offer": "FREE ITEM"
+    },
+    {
+      "name": "Chaayos",
+      "rating": "3.8",
+      "deliveryTime": "23",
+      "category": "Bakery, Beverages, Chaat",
+      "address": "Hinjewadi",
+      "image": "/assets/images/chaayos.png",
+      "offer": "FREE ITEM"
+    },
+    {
+      "name": "BOX8 - Desi Meals",
+      "rating": "3.8",
+      "deliveryTime": "17",
+      "category": "North Indian, Indian, Thalis",
+      "address": "Hinjewadi",
+      "image": "/assets/images/box-8.png",
+      "offer": "FREE ITEM"
     }
   ],
   "restaurants": [

@@ -3,11 +3,11 @@ import styles from "./mobile.module.scss";
 
 const MobileLayout = () => {
   return (
-    <div className={styles["mobile-only-section"]}>
-      <div className={styles["img-container"]}>
+    <div className={styles["mobile"]}>
+      <div className={styles["mobile__img"]}>
         <img src="/assets/images/rotate.png" alt="desktop-only" />
       </div>
-      <div className={styles["info-container"]}>
+      <div className={styles["mobile__info"]}>
         <h2>NOT AVAILABLE ON MOBILE YET</h2>
         <p>
           We are not yet available mobile devices, Please use tablet or desktop

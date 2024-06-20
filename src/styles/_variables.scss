@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oxygen:wght@300;400&family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 /* colors */
+$primary-dark: #ce6007;
 $primary: #fc8019;
 $brown: #2b1e16;
 $black: #000;
@@ -8,11 +9,13 @@ $grey-1: #282c3f;
 $grey-2: #686b78;
 $grey-3: #9c9da1;
 $grey-4: #d5d6d8;
+$grey-5: #ececec;
 $white: #fff;
 $link: #5d8ed5;
 $background-dark: #171a29;
 $background-dark-1: #3d4152;
 $hr-height: 1px;
+$danger: #da2f23;
 $info: #8a584b;
 $warning: #db7c38;
 $success: #48c479;
@@ -20,9 +23,13 @@ $success: #48c479;
 /* z-indices */
 $scrollbar-z-index: 10;
 $dropdown-z-index: 20;
-$toaster-z-index: 30;
+$toaster-z-index: 1500;
 $backdrop-z-index: 40;
 $modal-z-index: 50;
+$topnav-z-index: 500;
+$filters-z-index: 510;
+$drawer-z-index: 1100;
+$drawer-overlay-z-index: 1000;
 
 /* font-sizes */
 $fs-900: 2.8rem;
@@ -43,6 +50,7 @@ $fw-300: 300;
 
 /* font-families */
 $ff-sans-serif: "Quicksand", sans-serif;
+$ff-display: "Noto Sans Display", sans-serif;
 
 /* shadows */
 $btn-shadow: 1px;
@@ -55,3 +63,12 @@ $border-size: 1px;
 
 /* text */
 $letter-spacing: 1px;
+
+/* scrollbar */
+$scroll-height: 5px;
+
+/* header shadow */
+$header-x-shadow: 15px;
+$header-y-shadow: 40px;
+$header-blur: -20px;
+$separator-height: 1px;

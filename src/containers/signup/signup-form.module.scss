@@ -1,59 +1,59 @@
 /* stylelint-disable no-descending-specificity */
 @import "../../styles/variables";
 
-.form-section {
+.form-container {
     margin-top: 2rem;
     width: 100%;
 
-    form {
-        .form-wrapper {
-            .form-element-container {
-                position: relative;
-                border: $border-size solid $grey-4;
-                border-bottom: none;
-                width: 100%;
-
-                input {
-                    font-size: $fs-400 * 1.1;
-                    padding-left: 1.5rem;
-                    padding-right: 1.5rem;
-                    padding-top: 1.6rem;
-                    background-color: transparent;
-                    height: 5rem;
-                    color: $grey-2;
-                    font-weight: $fw-700;
-                    cursor: auto;
-
-                    &:valid + label,
-                    &:focus + label {
-                        font-size: $fs-300*0.9;
-                        transform: translateY(-0.8rem);
-                    }
-                }
-
-                label {
-                    position: absolute;
-                    top: 1.6rem;
-                    left: 1.5rem;
-                    font-size: $fs-400;
-                    font-weight: $fw-600;
-                    color: $grey-3;
-                    transition: all 0.1s ease;
-                    cursor: auto;
-                }
-            }
-
+    .form {
+        &__wrapper {
             div:last-child {
                 border-bottom: $border-size solid $grey-4 !important;
             }
         }
 
-        h3 {
+        &__element-container {
+            position: relative;
+            border: $border-size solid $grey-4;
+            border-bottom: none;
+            width: 100%;
+
+            input {
+                font-size: $fs-400 * 1.1;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+                padding-top: 1.6rem;
+                background-color: transparent;
+                height: 5rem;
+                color: $grey-2;
+                font-weight: $fw-700;
+                cursor: auto;
+
+                &:valid + label,
+                &:focus + label {
+                    font-size: $fs-300*0.9;
+                    transform: translateY(-0.8rem);
+                }
+            }
+
+            label {
+                position: absolute;
+                top: 1.6rem;
+                left: 1.5rem;
+                font-size: $fs-400;
+                font-weight: $fw-600;
+                color: $grey-3;
+                transition: all 0.1s ease;
+                cursor: auto;
+            }
+        }
+
+        &__referral {
             color: $link;
             margin-top: 2rem;
         }
 
-        .btn-login {
+        &__btn {
             width: 100%;
             padding: 0.5rem 0;
             margin-top: 1.5rem;
@@ -62,12 +62,12 @@
                 letter-spacing: $letter-spacing;
             }
         }
+    }
 
-        p {
-            font-size: $fs-200;
-            font-weight: $fw-500;
-            color: $grey-2;
-            margin-top: 0.8rem;
-        }
+    p {
+        font-size: $fs-200;
+        font-weight: $fw-500;
+        color: $grey-2;
+        margin-top: 0.8rem;
     }
 }
